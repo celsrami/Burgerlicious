@@ -17,38 +17,45 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-
+    <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="icon" href="/images/favicon.png" />
   </head>
   <body class="body">
+    <!-- Header -->
     <header class="header">
       <img class="logo" src="./images/logo.png" alt="Logo" />
-      <button class="menu__button js-button-open">
+      <button class="nav__button js-button-open">
         <i class="fa-solid fa-bars"></i>
       </button>
-      <nav class="menu js-menu">
-        <ul class="menu__items">
-          <button class="menu__button js-button-close">
+      <nav class="nav js-menu">
+        <ul class="nav__items">
+          <button class="nav__button js-button-close">
             <i class="fa-solid fa-bars"></i>
           </button>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Inicio</a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Inicio</a>
           </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Quienes somos</a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Quienes somos</a>
           </li>
-          <li class="menu__item"><a class="menu__link" href="#">Carta</a></li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Contacto</a>
+          <li class="nav__item"><a class="nav__link" href="#">Carta</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="hero"></section>
-      <section class="About"></section>
-      <section class="Menu"></section>
+    <main class="main">
+      <!-- Hero -->
+      <section class="hero size-hero">
+        <div class="hero-img-one hero-img size-hero"></div>
+        <div class="hero-img-twho hero-img size-hero"></div>
+      </section>
+      <section class="about"></section>
+      <section class="menu">
+        <div class="menu-burger"></div>
+      </section>
     </main>
     <footer class="footer"></footer>
     <script src="./js/main.js"></script>
