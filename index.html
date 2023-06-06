@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Burgerlicious</title>
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="/images/favicon.png" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <img class="logo" src="./images/logo.png" alt="Logo" />
+      <button class="menu__button js-button-open">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="menu js-menu">
+        <ul class="menu__items">
+          <button class="menu__button js-button-close">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Inicio</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Quienes somos</a>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">Carta</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero"></section>
+      <section class="About"></section>
+      <section class="Menu"></section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
