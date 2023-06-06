@@ -1,27 +1,81 @@
-
-@keyframes identifier {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
+/* variables */
+.sice-letter {
+    font-size: 16px;
 }
 
-@-webkit-keyframes identifier {
 
-    0%,
-    100% {
-        opacity: 1;
-    }
+/* section About-us */
 
-    50% {
-        opacity: 0;
-    }
+
+.about {
+    background-color: black;
+    text-align: center;
+    color: white;
+
 }
+.hr {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.article-two {
+    margin: 0 50px;
+    padding-bottom: 40px;
+}
+
+.about__img { 
+    margin: 40px 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px ridge rgb(255, 248, 245);
+    box-shadow: 2px 2px 4px rgba(240, 121, 11, 0.5);
+}
+
+
+.about__title {
+    margin: 30px 0 15px 0;
+
+}
+
+@media all and (min-width: 740px) {
+    .hr {
+            width: 1px;
+            height: 210px;
+            margin: auto 0;
+        }
+    .about {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .about__article {
+            width: 50%;
+            max-width: 600px;
+        }
+    
+        .about__img {
+            width: 250px;
+            height: 250px;
+        }
+
+}
+
+@media all and (min-width: 1024px) {
+    .about__img {
+            width: 200px;
+            height: 200px;
+        }
+
+     .hr {
+        height: 100px; }
+}
+
+
+/* animation burguer */
+
 
 @keyframes burger {
     0% {
@@ -53,42 +107,10 @@
     }
 }
 
-.size-hero {
-    height: 500px;
-    width: 100vw;
-}
-
-.hero {
-    position: relative;
-    width: 100vw;
-}
-
-
-.hero-img {
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.hero-img-one {  
-    background-image: url("https://assets.unileversolutions.com/recipes-v2/239972.jpg")
-}
-
-.hero-img-twho {
-    background-image: url("https://eci.contebio.com/material/aptc/images/aptc/2316406/hamburguesa-torres_0.jpg"); 
-    animation: identifier 20s ease 5s infinite;
-        -webkit-animation: identifier 20s ease 5s infinite;
-}
-
-
 
 
 .menu-burger {
     background-image: url("../images/logo.png");
-    background-position: center;
-    background-size: cover;
     width: 200px;
     height: 50px;
      animation: burger 5s ease infinite; 
@@ -97,18 +119,3 @@
 }
 
 
-@media all and (min-width: 740px) {
-    .size-hero {
-            height: 600px;
-            width: 100vw;
-        }
-
-}
-
-@media all and (min-width: 1024px) {
-    .size-hero {
-        height: 800px;
-        width: 100vw;
-    }
-
-}
