@@ -39,11 +39,11 @@
             <a class="nav__link" href="#">Inicio</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Quienes somos</a>
+            <a class="nav__link" href="#about">Quienes somos</a>
           </li>
-          <li class="nav__item"><a class="nav__link" href="#">Carta</a></li>
+          <li class="nav__item"><a class="nav__link" href="#menu">Carta</a></li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Contacto</a>
+            <a class="nav__link" href="#footer">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -55,8 +55,8 @@
         <div class="hero-img-twho hero-img size-hero img"></div>
       </section>
         <!-- About us -->
-      <section class="about">
-        <article class="about__article">
+      <section class="about" id="about">
+        <article class="about__article ">
           <img
             class="about__img"
             src="https://img.freepik.com/foto-gratis/preparacion-delicioso-arreglo-hamburguesas_23-2148868245.jpg"
@@ -79,17 +79,49 @@
         </article>
       </section>
        <!-- Menu -->
-      <section class="menu">
+      <section class="menu" id="menu">
         <img
           class="img-transform-turn"
           src="./images/fondonegro.png"
           alt="fondo"
         />
-        <h2>Menu</h2>
+        <h2 class="menu__title">Menu</h2>
         <article class="menu-burger img logo"></article>
+        <ul class="menu__item">
+          <li class="menu__items">
+            <h4 class="menu__items--title">Hamburguesa Clásica<span class="menu__price">13,00€</span> </h4>
+            <p class="sice-letter"> Pan de hamburguesa, carne de res, lechuga, tomate, cebolla, pepinillos, queso cheddar y salsa especial.</p>
+          </li>
+            <li class="menu__items">
+            <h4 class="menu__items--title">Hamburguesa BBQ<span class="menu__price">13,00€</span> </h4>
+            <p class="sice-letter"> Pan de hamburguesa, carne de cerdo desmenuzada en salsa BBQ, cebolla caramelizada, queso suizo y pepinillos.</p>
+          </li>
+            <li class="menu__items">
+            <h4 class="menu__items--title">Hamburguesa Mediterránea<span class="menu__price">13,00€</span> </h4>
+            <p class="sice-letter"> Pan de hamburguesa integral, pollo a la parrilla, espinacas frescas, tomates secados al sol, queso feta y salsa de yogur.</p>
+          </li>
+            <li class="menu__items">
+            <h4 class="menu__items--title">Hamburguesa Vegana<span class="menu__price">13,00€</span> </h4>
+            <p class="sice-letter"> Pan de hamburguesa vegano, hamburguesa de lentejas y champiñones, lechuga, tomate, cebolla morada, aguacate y salsa vegana.</p>
+          </li>
+            <li class="menu__items">
+            <h4 class="menu__items--title">Hamburguesa Picante<span class="menu__price">13,00€</span> </h4>
+            <p class="sice-letter">Pan de hamburguesa, carne de res sazonada, jalapeños, queso pepper jack, tocino y salsa picante. </p>
+          </li>
+          <li class="menu__items">
+            <h4 class="menu__items--title">Hamburguesa de Mariscos<span class="menu__price">13,00€</span> </h4>
+            <p class="sice-letter">Pan de hamburguesa, filete de salmón a la parrilla, lechuga, tomate, aguacate, cebolla roja y salsa de limón. </p>
+          </li>
+        </ul>
+        <img
+          class="img-transform"
+          src="./images/fondomarrón.png"
+          alt="fondo"
+        />
       </section>
     </main>
-    <footer class="footer">
+     <!-- Footer -->
+    <footer class="footer" id="footer">
       <img class="logo margin-logo" src="./images/logo.png" alt="Logo" />
       <nav class="footer__nav">
         <ul class="footer__ul">
@@ -97,10 +129,10 @@
             <a href="#" class="footer__link ">Inicio</a>
           </li>
           <li>
-            <a href="#" class="footer__link ">Quienes somos</a>
+            <a href="#about" class="footer__link ">Quienes somos</a>
           </li>
           <li>
-            <a href="#" class="footer__link ">Carta</a>
+            <a href="#menu" class="footer__link ">Carta</a>
           </li>
         </ul>
         <hr class="footer-hr" />

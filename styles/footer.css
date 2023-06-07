@@ -1,5 +1,5 @@
 .footer {
-    background-color: #8f6e5dd7;
+    background-color:var(--color-brown);
     display: flex;
     flex-direction: column;
     align-items: center;
