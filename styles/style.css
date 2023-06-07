@@ -40,6 +40,9 @@
 }
 
 @media all and (min-width: 740px) {
+    .sice-letter {
+            font-size: 18px;
+        }
     .hr {
             width: 1px;
             height: 210px;
@@ -64,6 +67,9 @@
 }
 
 @media all and (min-width: 1024px) {
+    .sice-letter {
+            font-size: 20px;
+        }
     .about__img {
             width: 200px;
             height: 200px;
@@ -110,12 +116,21 @@
 
 
 .menu-burger {
-    background-image: url("../images/logo.png");
-    width: 200px;
-    height: 50px;
+    background-image: url("../images/favicon.png");
+    width: 80px;
+    height: 80px;
      animation: burger 5s ease infinite; 
     -webkit-animation: burger 5s ease infinite; 
         
 }
+
+
+/* section menu */
+
+.img-transform-turn {
+    transform: rotate(0.5turn) translateY(2px);
+    width: 100%;
+}
+
 
 
