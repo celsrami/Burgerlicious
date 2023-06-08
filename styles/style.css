@@ -120,11 +120,11 @@
 
 .menu-burger {
     background-image: url("../images/favicon.png");
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
      animation: burger 5s ease infinite; 
     -webkit-animation: burger 5s ease infinite; 
-    margin: 10px 0;
+    margin-top: 20px;
         
 }
 
@@ -149,9 +149,11 @@
 
 .menu__title {
     color: var(--color-brown);
-    font-size: 40px;
+    font-size: 30px;
     margin: 0 auto;
+    text-shadow: 0 1px 0 #030303, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
+
 
 .menu__item {
     display: flex;
@@ -181,15 +183,24 @@ font-size: 18px;
 
 @media all and (min-width: 740px) {
 .menu__item {
-    margin: 40px 40px; 
+    margin: 40px 30px; 
 
 }
+
+  .menu__title {
+      font-size: 50px;
+  }
+  .menu-burger {
+    animation: burger 10s ease infinite;
+        -webkit-animation: burger 10s ease infinite;
+      width: 60px;
+      height: 60px; }
 
 }
 
 @media all and (min-width: 1024px) {
     .menu__item {
-            margin: 0 200px;
+            margin: 0 150px;
     
         }
 
